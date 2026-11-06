@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local databases & checkpoints
+*.db
+*.db-shm
+*.db-wal
+*checkpoint*.json*
+*.jsonl
+
+# Large data files
+data/*.pdf
